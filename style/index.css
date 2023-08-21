@@ -57,16 +57,16 @@ img {
 }
 
 .carousel-image-1 {
-    background-image: linear-gradient(var(--dark-overlay2), var(--dark-overlay2)), url('../images/banner1.jpg');
+    background-image: linear-gradient(var(--dark-overlay2), var(--dark-overlay2)), url('../public/images/banner1.jpg');
 }
 
 .carousel-image-2 {
-    background-image: linear-gradient(var(--dark-overlay2), var(--dark-overlay2)), url('../images/banner2.jpg');
+    background-image: linear-gradient(var(--dark-overlay2), var(--dark-overlay2)), url('../public/images/banner2.jpg');
     background-position: bottom;
 }
 
 .carousel-image-3 {
-    background-image: linear-gradient(var(--dark-overlay2), var(--dark-overlay2)), url('../images/banner3.jpg');
+    background-image: linear-gradient(var(--dark-overlay2), var(--dark-overlay2)), url('../public/images/banner3.jpg');
 }
 
 .carousel-caption h1 {
@@ -136,24 +136,24 @@ img {
 }
 
 #index-service-card-1 {
-    background-image: url('../images/index-card-01.jpg');
+    background-image: url('../public/images/index-card-01.jpg');
     background-position: 40%;
 }
 
 #index-service-card-2 {
-    background-image: url('../images/index-card-02.jpg');
+    background-image: url('../public/images/index-card-02.jpg');
 }
 
 #index-service-card-3 {
-    background-image: url('../images/index-card-03.jpg');
+    background-image: url('../public/images/index-card-03.jpg');
 }
 
 #index-service-card-4 {
-    background-image: url('../images/index-card-04.jpg');
+    background-image: url('../public/images/index-card-04.jpg');
 }
 
 #index-service-card-5 {
-    background-image: url('../images/index-card-05.jpg');
+    background-image: url('../public/images/index-card-05.jpg');
 }
 
 /* --------------------- Hover --------------------- */
@@ -168,23 +168,23 @@ a:hover div {
 }
 
 #index-service-card-1:hover {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/index-card-01.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/index-card-01.jpg');
 }
 
 #index-service-card-2:hover {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/index-card-02.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/index-card-02.jpg');
 }
 
 #index-service-card-3:hover {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/index-card-03.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/index-card-03.jpg');
 }
 
 #index-service-card-4:hover {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/index-card-04.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/index-card-04.jpg');
 }
 
 #index-service-card-5:hover {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/index-card-05.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/index-card-05.jpg');
 }
 
 /* --------------------- Responsive --------------------- */

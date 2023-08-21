@@ -52,67 +52,67 @@
 /* --------------------- Intro background-image Section --------------------- */
 
 #overview-services {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-service.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/intro-service.jpg');
 }
 
 #design {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-service-design.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/intro-service-design.jpg');
 }
 
 #npi {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-service-npi.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/intro-service-npi.jpg');
 }
 
 #supplyChain {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-service-supplychain.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/intro-service-supplychain.jpg');
 }
 
 #testDevelop {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-service-test.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/intro-service-test.jpg');
 }
 
 #smt {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-service-smt.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/intro-service-smt.jpg');
 }
 
 #afterMarket {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-service-smt.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/intro-service-smt.jpg');
 }
 
 #overview-markets {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-markets.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/intro-markets.jpg');
 }
 
 #automotive {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-market-automotive.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/intro-market-automotive.jpg');
 }
 
 #medical {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-market-medical.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/intro-market-medical.jpg');
 }
 
 #industrial {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-market-energy.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/intro-market-energy.jpg');
 }
 
 #illumination {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-market-illum.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/intro-market-illum.jpg');
 }
 
 #smartHome {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-market-smarthome.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/intro-market-smarthome.jpg');
 }
 
 #mobile {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-market-mobile.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/intro-market-mobile.jpg');
 }
 
 .intro-about {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-about.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/intro-about.jpg');
 }
 
 .intro-contact {
-    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-contact.jpg');
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../public/images/intro-contact.jpg');
 
 }
 
