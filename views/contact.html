@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | N-FABRION</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../public/images/short-icon.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../public/style/style.css">
+    <link rel="stylesheet" href="../public/style/nav_footer.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../public/bootstrap/bootstrap.min.css">
+    <script src="../public/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- sweetalert 2 -->
+    <link rel="stylesheet" href="../public/sweetalert2/sweetalert2.min.css">
+    <script src="../public/sweetalert2/sweetalert2.min.js"></script>
+    <!-- fontawesome -->
+    <script src="../public/fontawesome/fontawesome_all.min.js"></script>
+    <!-- script -->
+    <script defer src="../scripts/contact.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark-subtle text-bg-info sticky-top">
+        <div class="container-lg">
+            <a href="../views/index.html" class="navbar-brand">
+                <img src="../public/images/icon.png" id="logo">
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#top-navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="top-navbar">
+                <ul class="navbar-nav ms-auto navText">
+                    <!-- HOME -->
+                    <li class="nav-item mx-3 nav-menu" >
+                        <a href="../views/index.html" class="nav-link text-uppercase" id="nav-home">Home</a>
+                    </li>
+                    <!-- SERVICES -->
+                    <li class="nav-item dropdown mx-3 nav-menu">
+                        <a href="../views/services.html" class="nav-link text-uppercase" id="nav-service">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-nav" id="design-drop" href="../views/services.html#design">Design and Development</a></li>
+                            <li><a class="dropdown-nav" id="npi-drop" href="../views/services.html#npi">New Product Introduction</a></li>
+                            <li><a class="dropdown-nav" id="supplychain-drop" href="../views/services.html#supplyChain">Supply Chain Management</a></li>
+                            <li><a class="dropdown-nav" id="smt-drop" href="../views/services.html#smt">PCB Assembly & SMT</a></li>
+                            <li><a class="dropdown-nav" id="testdevelop-drop" href="../views/services.html#testDevelop">Test Development</a></li>
+                            <li><a class="dropdown-nav" id="aftermarket-drop" href="../views/services.html#afterMarket">After Market Services</a></li>
+                        </ul>
+                    </li>
+                    <!-- MARKET -->
+                    <li class="nav-item dropdown mx-3 nav-menu">
+                        <a href="../views/markets.html" class="nav-link text-uppercase" id="nav-market">Markets</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-nav" id="automotive-drop" href="../views/markets.html#automotive">Automotive</a></li>
+                            <li><a class="dropdown-nav" id="medical-drop" href="../views/markets.html#medical">Medical</a></li>
+                            <li><a class="dropdown-nav" id="industrial-drop" href="../views/markets.html#industrial">Industrial & Smart Energy</a></li>
+                            <li><a class="dropdown-nav" id="illumination-drop" href="../views/markets.html#illumination">Illumlnation</a></li>
+                            <li><a class="dropdown-nav" id="smarthome-drop" href="../views/markets.html#smartHome">Smart Home Devices</a></li>
+                            <li><a class="dropdown-nav" id="mobile-drop" href="../views/markets.html#mobile">Mobile Accessories</a></li>
+                        </ul>
+                    </li>
+                    <!-- ABOUT -->
+                    <li class="nav-item mx-3 nav-menu">
+                        <a href="../views/about.html" class="nav-link text-uppercase" id="nav-about">About</a>
+                    </li>
+                    <!-- CONTACT -->
+                    <li class="nav-item mx-3 nav-menu">
+                        <a href="../views/contact.html" class="nav-link text-uppercase" id="nav-contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- intro -->
+    <section class="intro intro-contact">
+        <div class="container">
+            <div class="row align-items-center" style="height: 500px;">
+                <div class="col-3">
+                    <div>
+                        <h1 class="border-bottom border-danger pb-2 border-3">Contact Us</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section>
+        <div class="container px-4 px-md-0">
+            <div class="row my-5">
+                <div class="col-12 col-md-5 order-2 order-md-1 mt-5 mt-md-0">
+                    <p class="contact-address"><strong>N-FABRION Coporation</strong><br>
+                        1520 South-East Street, Nadee, Muang,<br>
+                        Samut Sakhon 74000
+                    </p>
+                    <div class="my-3"><p>
+                        <a href="https://www.google.com/maps" class="text-decoration-none mylocation"><i class="fas fa-map-marker-alt fa-lg my-1"></i>&emsp;Location</a><br>
+                        <i class="fa-solid fa-phone fa-lg my-1"></i>&ensp;+997-1234-098<br>
+                        <i class="fa-solid fa-fax fa-lg my-1"></i>&ensp;+997-1235-089<br>
+                        <i class="fa-solid fa-envelope fa-lg my-1"></i>&ensp;sale01@nfabrion.com</p>
+                    </div>
+                    <div>
+                        <a href="https://www.facebook.com/" class="social"><i class="fa-brands fa-facebook fa-2x mx-1"></i></a>
+                        <a href="https://www.linkedin.com/" class="social"><i class="fa-brands fa-linkedin fa-2x mx-1"></i></a>
+                        <a href="https://twitter.com/" class="social"><i class="fa-brands fa-square-twitter fa-2x mx-1"></i></a>
+                        <a href="https://www.youtube.com/" class="social"><i class="fa-brands fa-youtube fa-2x mx-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 order-1 order-md-2">
+                    <p><strong>In order to assist in responding to your inquiry, please provide the following information.</strong></p>
+                    <form id="form" method="post">
+                        <div class="row my-4" id="row-name">
+                            <div class="col">
+                                <label for="firstname">First Name</label>
+                                <span class="ms-1 text-danger">*</span>
+                                <input type="text" name="firstname" class="text-input mt-1" id="fname" required>
+                            </div>
+                            <div class="col">
+                                <label for="lastname">Last Name</label>
+                                <span class="ms-1 text-danger">*</span>
+                                <input type="text" name="lastname" class="text-input mt-1" id="lname" required>
+                            </div>
+                        </div>
+                        <div class="row my-4">
+                            <div class="col">
+                                <label for="company">Company</label>
+                                <input type="text" name="company" class="text-input mt-1" id="company">
+                            </div>
+                            <div class="col">
+                                <label for="email">E-mail</label>
+                                <span class="ms-1 text-danger">*</span>
+                                <input type="email" name="email" class="text-input mt-1" id="mail" required>
+                            </div>
+                        </div>
+                        <div class="row my-4">
+                            <div class="col">
+                                <label for="message">Message</label>
+                                <span class="ms-1 text-danger">*</span>
+                                <textarea class="text-input mt-1" name="message" cols="20" rows="5" id="message" required></textarea>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn-danger text-light" id="submit-btn"><strong>SUBMIT</strong></button>
+                            <!-- <button class="btn btn-success text-light" data-bs-toggle="modal" data-bs-target="#modalContact"><strong>modalCheck</strong></button> -->
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal contact -->
+    <section>
+        <div class="modal fade" id="modalContact" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Contact Infomation</h1>
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                    </div>
+                    <div class="modal-body">
+                        <p><strong>Please check your information before submitting.</strong></p>
+                        <form method="post">
+                            <div class="form-group">
+                                <label for="fname-modal">First Name</label>
+                                <input type="text" name="modal-firstname" id="fname-modal" class="form-control" disabled>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="fname-modal">Last Name</label>
+                                <input type="text" name="modal-lastname" id="lname-modal" class="form-control" disabled>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="fname-modal">Company</label>
+                                <input type="text" name="modal-company" id="company-modal" class="form-control" disabled>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="fname-modal">Email</label>
+                                <input type="text" name="modal-email" id="email-modal" class="form-control" disabled>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="fname-modal">Message</label>
+                                <textarea class="form-control" name="modal-message" cols="5" rows="2" id="message-modal" disabled></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">BACK TO EDIT</button>
+                        <button type="button" class="btn btn-danger" onclick="modalSubmit()">SUBMIT</button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer" class="pt-4 overflow-hidden">
+        <div class="container px-5 px-sm-3">
+            <div class="row">
+               <div class="col-6 col-sm-6 col-md-4 col-lg-3 p-0">
+                    <ul class="navbar-nav">
+                        <li class="nav-item my-1"><a href="../views/services.html" class="nav-bottom first-text"><strong>SERVICES</strong></a></li>
+                        <li class="nav-item my-1"><a href="../views/services.html#design" class="nav-bottom">Design and Development</a></li>
+                        <li class="nav-item my-1"><a href="../views/services.html#npi" class="nav-bottom">New Product Introduction</a></li>
+                        <li class="nav-item my-1"><a href="../views/services.html#supplyChain" class="nav-bottom">Supply Chain Management</a></li>
+                        <li class="nav-item my-1"><a href="../views/services.html#testDevelop" class="nav-bottom">Test Development</a></li>
+                        <li class="nav-item my-1"><a href="../views/services.html#smt" class="nav-bottom">PCB Assembly & SMT</a></li>
+                        <li class="nav-item my-1"><a href="../views/services.html#afterMarket" class="nav-bottom">After Market Services</a></li>
+                    </ul>
+               </div>
+               <div class="col-6 col-sm-6 col-md-4 col-lg-3 p-0">
+                    <ul class="navbar-nav">
+                        <li class="nav-item my-1"><a href="../views/markets.html" class="nav-bottom first-text"><strong>MARKETS</strong></a></li>
+                        <li class="nav-item my-1"><a href="../views/markets.html#automotive" class="nav-bottom">Automotive</a></li>
+                        <li class="nav-item my-1"><a href="../views/markets.html#medical" class="nav-bottom">Medical</a></li>
+                        <li class="nav-item my-1"><a href="../views/markets.html#industrial" class="nav-bottom">Industrial & Smart Energy</a></li>
+                        <li class="nav-item my-1"><a href="../views/markets.html#illumination" class="nav-bottom">Illumination</a></li>
+                        <li class="nav-item my-1"><a href="../views/markets.html#smartHome" class="nav-bottom">Smart Home Devices</a></li>
+                        <li class="nav-item my-1"><a href="../views/markets.html#mobile" class="nav-bottom">Mobile Accessories</a></li>
+                    </ul>
+               </div>
+               <div class="col-6 col-sm-3 col-md-4 col-lg-2 mt-4 mt-sm-4 mt-md-0 px-0">
+                    <ul class="navbar-nav">
+                        <li class="nav-item my-1"><span class="nav-bottom first-text"><strong>COMPANY</strong></span></li>
+                        <li class="nav-item my-1"><a href="#" class="nav-bottom">Careers</a></li>
+                        <li class="nav-item my-1"><a href="#" class="nav-bottom">About us</a></li>
+                    </ul>
+               </div>
+               <div class="col-6 col-sm col-md-4 col-lg mt-4 mt-sm-4 mt-lg-0 p-0">
+                    <ul class="navbar-nav">
+                        <li class="nav-item my-1"><a href="../views/contact.html" class="nav-bottom first-text"><strong>CONTACT</strong></a></li>
+                        <li class="nav-item my-1"><p class="nav-bottom address"><strong>N-FABRION Coporation</strong><br>
+                            1520 South-East Street,<br>
+                            Nadee, Muang,<br>
+                            Samut Sakhon 74000</p>
+                        </li>
+                    </ul>  
+                </div>
+                <div class="col-12 col-sm col-md-4 col-lg mt-lg-0 mt-sm-4 p-0">
+                    <div class="mt-1">
+                        <a href="index.html" class="navbar-brand">
+                            <img src="../public/images/icon2.png" id="logo-bottom">
+                        </a>
+                    </div>
+                    <div class="my-3">
+                        <p>
+                            <a href="https://www.google.com/maps" class="text-decoration-none location"><i class="fa-solid fa-location-dot fa-lg my-1"></i>&emsp;Location</a><br>
+                            <i class="fa-solid fa-phone fa-lg my-1"></i>&ensp;+997-1234-098<br>
+                            <i class="fa-solid fa-fax fa-lg my-1"></i>&ensp;+997-1235-089<br>
+                            <i class="fa-solid fa-envelope fa-lg my-1"></i>&ensp;sale01@nfabrion.com
+                        </p>
+                    </div>
+                    <div>
+                        <a href="https://www.facebook.com/" class="social-icon"><i class="fa-brands fa-facebook fa-2x mx-1"></i></a>
+                        <a href="https://www.linkedin.com/" class="social-icon"><i class="fa-brands fa-linkedin fa-2x mx-1"></i></a>
+                        <a href="https://twitter.com/" class="social-icon"><i class="fa-brands fa-square-twitter fa-2x mx-1"></i></a>
+                        <a href="https://www.youtube.com/" class="social-icon"><i class="fa-brands fa-youtube fa-2x mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="d-flex justify-content-center text-light">&copy; Copyright N-FRBRION 2023</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600&display=swap');
+
+:root {
+    --dark-overlay: rgba(0, 0, 0, 0.7);
+    --dark-overlay2: rgba(0, 0, 0, 0.5);
+    --underline:#c80431;
+}
+
+* {
+    font-family: 'Heebo', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+/* --------------------- Underline --------------------- */
+
+.underline-center::after, .underline-left h2::after, .underline-left-slider p::after {
+    content: '';
+    position: relative;
+    background-color: var(--underline);
+    height: 2px;
+}
+
+.underline-center {
+    position: relative;
+    display: grid;
+    justify-content: center;
+}
+
+.underline-center::after {
+    margin: 0 auto;
+    width: 100%;
+    bottom: -.35rem;
+    left: 0;
+    right: 0;
+}
+
+.underline-left h2::after, .underline-left-slider p::after {
+    display: flex;
+    margin: .75rem 0;
+    width: 14rem;
+}
+
+.underline-left h2::after {
+    width: 9rem;
+}
+
+/* --------------------- Slider (Carousel) --------------------- */
+
+.carousel-item {
+    background-size: cover;
+    background-position: center;
+    height: 38vw;
+    width: auto;
+}
+
+.carousel-image-1 {
+    background-image: linear-gradient(var(--dark-overlay2), var(--dark-overlay2)), url('../images/banner1.jpg');
+}
+
+.carousel-image-2 {
+    background-image: linear-gradient(var(--dark-overlay2), var(--dark-overlay2)), url('../images/banner2.jpg');
+    background-position: bottom;
+}
+
+.carousel-image-3 {
+    background-image: linear-gradient(var(--dark-overlay2), var(--dark-overlay2)), url('../images/banner3.jpg');
+}
+
+.carousel-caption h1 {
+    font-size: 3.5vw;
+}
+
+.carousel-caption p {
+    font-size: 1.75vw;
+}
+
+/* --------------------- Our vision section --------------------- */
+
+#vision {
+    margin: 5rem auto;
+}
+
+/* --------------------- Index Markets --------------------- */
+
+#index-market {
+    background-color: #f5f5f5;
+}
+
+.index-market-row {
+    text-transform: uppercase;
+}
+
+.link-light {
+    text-decoration: none;
+}
+
+.index-market-row p {
+    font-size: 1.25rem;
+}
+
+.fa-4x {
+    color: #b00930;
+}
+
+/* --------------------- Index Services card --------------------- */
+
+.index-service-card {
+    background-size: auto 100%;
+    background-position: 50%;
+    height: 35vw;
+    width: auto;
+    text-decoration: none;
+}
+
+.index-service-card div {
+    display: none;
+}
+
+.index-service-card h3, h5 {
+    text-transform: uppercase;
+}
+
+.index-service-card h3 {
+    font-size: 1.7vw;
+}
+
+.index-service-card h5 {
+    font-size: 1.4vw;
+}
+
+.index-service-card p {
+    font-size: 1.1vw;
+}
+
+#index-service-card-1 {
+    background-image: url('../images/index-card-01.jpg');
+    background-position: 40%;
+}
+
+#index-service-card-2 {
+    background-image: url('../images/index-card-02.jpg');
+}
+
+#index-service-card-3 {
+    background-image: url('../images/index-card-03.jpg');
+}
+
+#index-service-card-4 {
+    background-image: url('../images/index-card-04.jpg');
+}
+
+#index-service-card-5 {
+    background-image: url('../images/index-card-05.jpg');
+}
+
+/* --------------------- Hover --------------------- */
+
+.index-service-card:hover {
+    background-size: auto 120%;
+    transition: background-size 1s ease 0s;
+}
+
+a:hover div {
+    display: grid;
+}
+
+#index-service-card-1:hover {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/index-card-01.jpg');
+}
+
+#index-service-card-2:hover {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/index-card-02.jpg');
+}
+
+#index-service-card-3:hover {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/index-card-03.jpg');
+}
+
+#index-service-card-4:hover {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/index-card-04.jpg');
+}
+
+#index-service-card-5:hover {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/index-card-05.jpg');
+}
+
+/* --------------------- Responsive --------------------- */
+
+@media (max-width: 767px) {
+    .index-service-card {
+        background-size: cover;
+    }
+    #index-service-card-1:hover, #index-service-card-2:hover, #index-service-card-3:hover, #index-service-card-4:hover, #index-service-card-5:hover {
+        background-size: cover;
+    }
+    .index-service-card h3 {
+        font-size: 3.5vw;
+    }
+    
+    .index-service-card h5 {
+        font-size: 3.1vw;
+    }
+    
+    .index-service-card p {
+        font-size: 2.7vw;
+    }
+    .fa-4x {
+        font-size: 3em;
+    }
+    .index-market-row h5 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .fa-4x {
+        font-size: 2.5em;
+    }
+    .index-market-row h5 {
+        font-size: .75rem;
+    }
+}
+
+@media (max-width: 399px) {
+    .fa-4x {
+        font-size: 2em;
+    }
+}

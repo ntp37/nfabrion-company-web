@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&display=swap');
+
+:root {
+    --dark-overlay: rgba(0, 0, 0, 0.6);
+    --underline:#c80431;
+}
+
+* {
+    font-family: 'Heebo', sans-serif;
+}
+
+.about-img img, .overview-article img, .myservice-img img {
+    width: 100%;
+}
+
+.intro {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+/* --------------------- Underline --------------------- */
+
+.underline-left h3::after, .underline-center::after  {
+    background-color: var(--underline);
+    position: relative;
+    height: 2px;
+}
+
+.underline-left h3::after {
+    content: '';
+    display: flex;
+    margin: .75rem 0;
+    width: 14rem;
+}
+
+.underline-center {
+    position: relative;
+    display: grid;
+    justify-content: center;
+}
+
+.underline-center::after {
+    content: '';
+    margin: 0 auto;
+    width: 60%;
+    bottom: -.6rem;
+    left: 0;
+    right: 0;
+}
+
+/* --------------------- Intro background-image Section --------------------- */
+
+#overview-services {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-service.jpg');
+}
+
+#design {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-service-design.jpg');
+}
+
+#npi {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-service-npi.jpg');
+}
+
+#supplyChain {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-service-supplychain.jpg');
+}
+
+#testDevelop {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-service-test.jpg');
+}
+
+#smt {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-service-smt.jpg');
+}
+
+#afterMarket {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-service-smt.jpg');
+}
+
+#overview-markets {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-markets.jpg');
+}
+
+#automotive {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-market-automotive.jpg');
+}
+
+#medical {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-market-medical.jpg');
+}
+
+#industrial {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-market-energy.jpg');
+}
+
+#illumination {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-market-illum.jpg');
+}
+
+#smartHome {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-market-smarthome.jpg');
+}
+
+#mobile {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-market-mobile.jpg');
+}
+
+.intro-about {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-about.jpg');
+}
+
+.intro-contact {
+    background-image: linear-gradient(var(--dark-overlay),var(--dark-overlay)), url('../images/intro-contact.jpg');
+
+}
+
+/* --------------------- Services, Markets page --------------------- */
+
+#container-overview {
+    overflow: hidden;
+}
+
+#row-overview-2 {
+    margin-bottom: 4rem;
+}
+
+.head-overview {
+    margin: 4rem 0;
+}
+
+.btn-filter {
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.btn-filter, .learnMore {
+    text-decoration: none;
+    color: #212529;
+}
+
+.link-hover:hover .btn-filter, .link-hover:hover .learnMore {
+    color: var(--underline);
+}
+
+.overview-article {
+    background-color: #f5f5f5;
+}
+
+/* --------------------- Contact page --------------------- */
+
+.contact-address strong {
+    line-height: 2.3;
+}
+
+.social, .mylocation {
+    color: rgb(33,37,41);
+}
+
+.social:hover, .mylocation:hover, ::placeholder {
+    color: var(--underline);
+}
+
+.text-input, .text-modal {
+    display: block;
+    background-color: #f5f5f5;
+    color: #212529;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: .375rem;
+    border: .1rem solid #aaadaf;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.text-input:focus {
+    color: #212529;
+    background-color: #fff;
+    outline: 0;
+    /* border-color: #86b7fe; */
+    /* box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25); */
+}
+
+.required {
+    border-color: #c80431;
+}
+
+::placeholder {
+    font-weight: 500;
+    /* font-size: 0.8vw; */
+}
+
+/* --------------------- Responsive --------------------- */
+
+@media (max-width: 1200px) {
+    ::placeholder {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+    ::placeholder {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    #row-overview-1 > div, #row-overview-2 > div {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .service-02, .market-02 {
+        order: 2!important;
+    }
+}
