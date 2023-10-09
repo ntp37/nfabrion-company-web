@@ -16,5 +16,5 @@ The project is a front-end website about to company presentation
 * FontAwesome
 
 ### How to use files in repository
-* Run command "git clone"
+* Run command `git clone <repository_link>`
 * Open project in HTML files or open in Live Server in VsCode
